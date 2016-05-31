@@ -1,0 +1,51 @@
+75 mins
+10 min Introduction: 
+	- html/css = structure and content / style and presentation ; 
+	- HyperText Markup Language
+	- Chrome Developer Tools - go to any website and inspect its source code 
+	- right click on page to see source on any web page
+
+	- Not a programming language, but a mark up language
+	- html structure of a page - <!Doctype>, <head>, <body>, 
+	- conventions: < > < /> opening and closing, but some self closing tags
+		- nesting
+
+35 mins HTML
+	- <title>
+	- <!-- comment tags -->
+	- heading tags <h1>
+	- <p>aragraph tags
+	- <br>eak tags
+	- links <a>
+	- images <img>
+
+	- attributes: src, href, 
+
+	- <div> tags, id and class - can refer to css styles
+	segue to CSS
+
+30 mins CSS
+	- Cascading Style Sheets
+	- can be in-line via style attribute (should be avoided)
+	- also can be internal, in <head> using <style> tag (not as bad as in-line)
+	- External - style.css file
+		<link rel="stylesheet" href="style.css"> inside <head>
+
+	Selectors: Whereas HTML has tags, CSS has selectors
+	- each selector has 'properties' inside { } 
+	- a 'value' is given to the property following a colon; semi-colons seperate properties
+	body {
+    font-size: 14px;
+    color: navy;
+	}
+	- ids and classes in HTML can be governed by .class-selector or #id-selector
+
+	The Box Model: 
+	- content area (e.g. an image), surrounding that you have the padding, surrounding that you have the border and surrounding that you have the margin.
+
+	- Chrome Developer Tools: go to a site and play with CSS 	
+
+Resources:
+HTML Tag reference: http://www.w3schools.com/tags/ref_byfunc.asp
+CSS Reference: http://www.w3schools.com/cssref/default.asp
+Hexadecimal color picker: http://www.w3schools.com/colors/colors_picker.asp 
