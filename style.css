@@ -1,0 +1,33 @@
+body {
+	background-color: #b3cccc;
+}
+#container {
+	background-color: white;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#header {
+	background-color: #3333cc;
+	color: white;
+	text-align: center;
+}
+#content {
+	padding: 10px;
+}
+#menu {
+	width: 180px;
+	float: left;
+}
+#image {
+	width: 600px; 
+	float: right;
+}
+#footer {
+	clear: both;
+	text-align: right;
+}
+.intro {
+	color: #b3cccc;
+	font-weight: bold;
+}
